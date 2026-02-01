@@ -78,7 +78,6 @@ class CartScreen extends StatelessWidget {
 
           return Column(
             children: [
-              // Cart items list
               Expanded(
                 child: ListView.builder(
                   padding: EdgeInsets.all(16),
@@ -93,7 +92,6 @@ class CartScreen extends StatelessWidget {
                   },
                 ),
               ),
-              // Bottom summary
               Container(
                 padding: EdgeInsets.all(20),
                 decoration: BoxDecoration(

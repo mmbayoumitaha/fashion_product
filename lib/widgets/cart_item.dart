@@ -34,7 +34,6 @@ class CartItemWidget extends StatelessWidget {
             ),
           ),
           SizedBox(width: 16),
-          // Product details
           Expanded(
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
@@ -90,7 +89,6 @@ class CartItemWidget extends StatelessWidget {
               ],
             ),
           ),
-          // Delete button
           IconButton(
             icon: Icon(Icons.delete_outline, color: Colors.red),
             onPressed: onRemove,
