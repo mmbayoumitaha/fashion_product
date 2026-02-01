@@ -34,11 +34,9 @@ class ProductCard extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            // Image with favorite button
             Expanded(
               child: Stack(
                 children: [
-                  // Product image
                   Container(
                     width: double.infinity,
                     decoration: BoxDecoration(
@@ -53,7 +51,6 @@ class ProductCard extends StatelessWidget {
                       child: Image.asset(product.image, fit: BoxFit.cover),
                     ),
                   ),
-                  // Favorite button
                   Positioned(
                     top: 8,
                     right: 8,

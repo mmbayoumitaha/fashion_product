@@ -24,7 +24,6 @@ class CartItemWidget extends StatelessWidget {
       ),
       child: Row(
         children: [
-          // Product image
           ClipRRect(
             borderRadius: BorderRadius.circular(12),
             child: Image.asset(
@@ -66,7 +65,6 @@ class CartItemWidget extends StatelessWidget {
                   ],
                 ),
                 SizedBox(height: 8),
-                // Quantity controls
                 Row(
                   children: [
                     _buildQuantityButton(

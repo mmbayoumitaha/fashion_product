@@ -42,7 +42,6 @@ class Crud {
     return favoritesNotifier.value.any((p) => p.id == productId);
   }
 
-  // Toggle favorite status
   Future<void> toggleFavorite(Product product) async {
     if (isFavorite(product.id)) {
       await removeFromFavorites(product.id);
